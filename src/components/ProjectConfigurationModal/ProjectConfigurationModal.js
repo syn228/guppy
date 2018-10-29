@@ -134,6 +134,14 @@ class ProjectConfigurationModal extends PureComponent<Props, State> {
                 colors={[COLORS.green[700], COLORS.lightGreen[500]]}
                 disabled={dependenciesChangingForProject}
               >
+                Upload Project Icon
+              </FillButton>
+
+              <FillButton
+                size="large"
+                colors={[COLORS.green[700], COLORS.lightGreen[500]]}
+                disabled={dependenciesChangingForProject}
+              >
                 Save Project
               </FillButton>
 
